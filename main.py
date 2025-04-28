@@ -2,7 +2,7 @@ import google.generativeai as genai
 import re
 
 # Set your Google API key
-genai.configure(api_key="AIzaSyD4STHIxu6QbF0i0o9vUFkBR9dv7LiNMDs")
+genai.configure(api_key="your api key")
 def generate_quiz(topic, num_questions=5):
     """
     Generates a multiple-choice quiz based on the given topic.
